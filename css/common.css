@@ -1,0 +1,130 @@
+.header {
+    width: 100%;
+    height: 58px;
+    background-color: #191d3a;
+}
+.header .inner {
+    width: 1030px;
+    height: 58px;
+    margin: 0 auto;
+}
+.header .inner h1.logo {
+    float: left;
+    margin-right: 45px;
+}
+.header .inner .logo a{
+    display: block;
+    padding-top: 10px;
+    height: 48px;
+    width: 157px;
+    background: url("../images/logo.png") no-repeat 0 10px;
+    text-indent: -999em;
+}
+.header .inner .nav {
+    float: left;
+    text-align: center;
+    line-height: 58px;
+    /* border: 1px red solid; */
+}
+.header .inner .nav ul li {
+    float: left;
+    border-left: 1px solid #252947;
+}
+.header .inner .nav ul li a {
+    display: block;
+    width: 85px;
+    line-height: 58px;
+    height: 58px;
+    color: #818496;
+    font-size: 13px;
+}
+.header .inner .nav ul li:last-child a {
+    width: 98px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 9px;
+    margin-top: 12px;
+    color: #ffffff;
+    background-color: #38b774;
+    border: 1px solid #3aca7a;
+    border-radius: 3px;
+}
+// .header .inner .nav ul li:last-child a:hover {
+//     color: #ffffff;
+//     background-color: #38b774;
+// }
+.header .inner .nav ul li.cur a {
+    background-color: #252947;
+    color: #e2e4e2;
+}
+
+.header .inner .lang {
+    float: right;
+    padding-right: 35px;
+}
+.header .inner .lang a {
+    display: block;
+    height: 36px;
+    font-size: 14px;
+    color: #443647;
+    line-height: 58px;
+    float: left;
+}
+.header .inner .lang a:last-child {
+    margin-left: 15px;
+}
+.header .inner .lang a.cur {
+    color: #38b774;
+}
+.footer {
+    height: 141px;
+    width: 100%;
+    background-color: #191d3a;
+}
+.footer .inner {
+    width: 980px;
+    height: 106px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+.footer .inner p {
+    color: #6c6e7e;
+    font-size: 12px;
+    display: block;
+    height: 52px;
+    line-height: 52px;
+    float: left;
+}
+.footer .inner img {
+    float: left;
+    height: 52px;
+    width: 38px;
+    margin-left: 10px;
+}
+.footer ul {
+    float: left;
+}
+.footer ul li {
+    float: left;
+    margin-top: 20px;
+}
+.footer ul li a {
+    height: 12px;
+    line-height: 12px;
+    display: block;
+    color: #6c6e7e;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #3f6173;
+}
+.footer ul li:first-child a {
+    padding-left: 0px;
+}
+.footer ul li:last-child a {
+    border-right: 0;
+    padding-right: 0;
+}
+.footer ul li a:hover {
+    color: white
+}

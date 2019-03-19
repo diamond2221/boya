@@ -1,0 +1,268 @@
+.content {
+    width: 100%;
+    position: relative;
+    margin: 50px 0 57px 0;
+}
+
+.content .inner {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content .inner .top {
+    height: 230px;
+    position: relative;
+    margin-bottom: 53px;
+}
+
+.content .inner .top .imgs {
+    width: 2000px;
+    display: flex;
+    transition: all 1s;
+}
+
+.content .inner .top ul {
+    float: left;
+    flex: 1;
+    margin-right: 42px;
+    height: 192px;
+}
+
+.content .inner .top ul:hover li {
+    background-color: #38b774;
+}
+
+.content .inner .top ul:hover li a h3 {
+    color: white;
+}
+
+.content .inner .top ul:hover li a span {
+    color: white;
+    background-image: url("../images/arrow_hover.png");
+}
+
+.content .inner .top ul li {
+    text-align: center;
+}
+
+.content .inner .top ul li:first-child a {
+    display: block;
+}
+
+.content .inner .top ul:nth-child(4n) {
+    margin-right: 0;
+}
+
+.content .inner .top ul li a img {
+    width: 218px;
+    height: 128px;
+}
+
+.content .inner .top ul li a h3 {
+    color: black;
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.content .inner .top ul li a span {
+    color: green;
+    font-size: 11px;
+    line-height: 28px;
+    background: url("../images/arrow.png") no-repeat right center;
+    padding-right: 12px;
+}
+
+.content .inner .top .bor {
+    float: left;
+    height: 1px;
+    padding-top: 36px;
+    width: 1000px;
+}
+
+.content .inner .top .bor .lbor {
+    width: 466px;
+    float: left;
+    border-bottom: 1px solid #dbe1e7;
+}
+
+.content .inner .top ul.but {
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 15px;
+    bottom: -5px;
+}
+
+.content .inner .top ul.but li {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #b5c0cb;
+    position: absolute;
+    cursor: pointer;
+}
+
+.content .inner .top ul.but li:first-child {
+    margin-left: -20px;
+}
+
+.content .inner .top ul.but li:last-child {
+    margin-left: 5px;
+}
+
+.content .inner .top ul.but li.cur {
+    background-color: #2fbc71;
+}
+
+.content .inner .top .bor .rbor {
+    width: 466px;
+    float: right;
+    border-bottom: 1px solid #dbe1e7;
+}
+
+.content .bottom {
+    width: 100%;
+    height: 310px;
+    background: url(../images/indexmainbg.jpg) center center;
+}
+
+.content .bottom .bg {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content .bottom .bg .news {
+    height: 310px;
+    width: 500px;
+    float: left;
+    position: relative;
+    left: 0;
+    background: url("../images/bynewsbg.jpg") no-repeat 0px -10px;
+}
+
+.content .bottom .bg .news p.more {
+    position: absolute;
+    right: 217px;
+    top: 40px;
+    width: 64px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px green solid;
+    border-radius: 5px;
+}
+
+.content .bottom .bg .news p.more a {
+    font-size: 10px;
+    color: green;
+}
+
+.content .bottom .bg .news p.more span {
+    position: absolute;
+    top: -5px;
+}
+
+.content .bottom .bg .news .main {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+}
+
+.content .bottom .bg .news .main p {
+    height: 49px;
+    line-height: 49px;
+    font-size: 12px;
+    width: 460px;
+    border-bottom: 1px solid #dbe1e7;
+}
+
+.content .bottom .bg .news .main p a {
+    color: #323232;
+    display: block;
+    height: 24px;
+}
+
+.content .bottom .bg .news .main p a span {
+    float: right;
+    color: #b4c0d9;
+}
+
+.content .bottom .bg .zhaopin {
+    width: 480px;
+    height: 270px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 40px;
+    background: url("../images/byhrbg3.jpg") no-repeat;
+    position: relative;
+}
+
+.content .bottom .bg .zhaopin .title {
+    width: 204px;
+    height: 48px;
+    padding-left: 58px;
+    color: white;
+}
+
+.content .bottom .bg .zhaopin .title .left {
+    float: left;
+    height: 48px;
+}
+
+.content .bottom .bg .zhaopin .title .left h2 {
+    font-size: 28px;
+    line-height: 38px;
+    height: 38px;
+}
+
+.content .bottom .bg .zhaopin .title .left span {
+    font-size: 10px;
+    display: block;
+    height: 12px;
+    line-height: 12px;
+}
+
+.content .bottom .bg .zhaopin .title p {
+    width: 64px;
+    height: 26px;
+    float: right;
+    line-height: 26px;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+.content .bottom .bg .zhaopin .title p a {
+    font-size: 10px;
+    color: white;
+}
+
+.content .bottom .bg .zhaopin .title p a span {
+    position: absolute;
+    top: -5px;
+}
+
+.content .bottom .bg .zhaopin h3 {
+    font-size: 12px;
+    color: white;
+    margin-top: 26px;
+}
+
+.content .bottom .bg .zhaopin .ganwei {
+    width: 305px;
+}
+
+.content .bottom .bg .zhaopin .ganwei p {
+    height: 37px;
+    border-bottom: 1px solid #6fdea3;
+}
+
+.content .bottom .bg .zhaopin .ganwei p a {
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid #6fdea3;
+}
